@@ -1,0 +1,169 @@
+{
+    "recetas": [
+      {
+        "nombre": "Enchilada De Pollo",
+        "descripcion": "Tortillas rellenas de pollo, cubiertas con salsa de chile, queso y a veces crema agria.",
+        "pais": "México"
+      },
+      {
+        "nombre": "Camarones Al Ajillo",
+        "descripcion": "Camarones salteados con ajo y aceite de oliva, a menudo sazonados con pimentón y limón.",
+        "pais": "España"
+      },
+      {
+        "nombre": "Pupusas De Frijoles Y Queso",
+        "descripcion": "Tortillas de maíz rellenas de frijoles y queso, a menudo servidas con curtido (una especie de ensalada de repollo fermentado).",
+        "pais": "El Salvador"
+      },
+      {
+        "nombre": "Maíz a la parrilla",
+        "descripcion": "Maíz a la parrilla cubierto con mayonesa, queso rallado, chile en polvo y jugo de lima.",
+        "pais": "México"
+      },
+      {
+        "nombre": "Quesadillas de carne con queso",
+        "descripcion": "Tortillas de maíz o harina rellenas de queso y carne, a menudo servidas con guacamole, crema agria y salsa.",
+        "pais": "México"
+      },
+      {
+        "nombre": "Pasta mexicana con pollo",
+        "descripcion": "Pasta cocida con pollo, chiles verdes y una salsa cremosa de queso cheddar y mozzarella.",
+        "pais": "México"
+      },
+      {
+        "nombre": "Ajoblanco",
+        "descripcion": "Sopa fría hecha de almendras, ajo, pan, aceite de oliva, agua y vinagre.",
+        "pais": "España"
+      },
+      {
+        "nombre": "Bacalao al pilpil",
+        "descripcion": "Bacalao cocinado en una salsa emulsionada hecha de su propio gelatina y aceite de oliva.",
+        "pais": "España"
+      },
+      {
+        "nombre": "Callos a la madrileña",
+        "descripcion": "Estofado de tripas de ternera, chorizo y morcilla en una salsa de tomate y pimentón.",
+        "pais": "España"
+      },
+      {
+        "nombre": "Empanada gallega",
+        "descripcion": "Pastel de hojaldre relleno de atún, pimientos, cebollas y tomate.",
+        "pais": "España"
+      },
+      {
+        "nombre": "Pulpo á feira",
+        "descripcion": "Pulpo cocido servido con aceite de oliva, pimentón y sal.",
+        "pais": "España"
+      },
+      {
+        "nombre": "Salmorejo",
+        "descripcion": "Sopa fría hecha de tomates, pan, aceite de oliva, ajo y vinagre, a menudo servida con jamón y huevos duros.",
+        "pais": "España"
+      },
+      {
+        "nombre": "Cochinillo asado",
+        "descripcion": "Lechón asado lentamente hasta que la piel esté crujiente y dorada.",
+        "pais": "España"
+      },
+      {
+        "nombre": "Fritura andaluza",
+        "descripcion": "Variedad de pescado y marisco rebozado y frito, a menudo servido con limón y mayonesa de ajo.",
+        "pais": "España"
+      },
+      {
+        "nombre": "Papas arrugadas con mojo picón",
+        "descripcion": "Papas hervidas en agua con sal hasta que la piel se arruga, servidas con una salsa picante de pimientos rojos, ajo, comino, vinagre y aceite de oliva.",
+        "pais": "España"
+      },
+      {
+        "nombre": "Baleadas",
+        "descripcion": "Preparadas con tortillas, huevos revueltos y frijoles.",
+        "pais": "Honduras"
+      },
+      {
+        "nombre": "Nachos Supreme",
+        "descripcion": "Hechos con carne molida sazonada, frijoles refritos, queso, tomates, cebollas verdes, tortillas y varios condimentos.",
+        "pais": "México"
+      },
+      {
+        "nombre": "Tarta de Tamales",
+        "descripcion": "Hecha con pan de maíz, cubierto con carne molida y polvo frío.",
+        "pais": "México"
+      },
+      {
+        "nombre": "Huevos Rancheros",
+        "descripcion": "Preparados con frijoles, queso, aguacate, huevos y otros ingredientes.",
+        "pais": "México"
+      },
+      {
+        "nombre": "Cocido Madrileño",
+        "descripcion": "Un plato energético que incluye col, garbanzos y huevo, junto con una variedad de carnes.",
+        "pais": "España"
+      },
+      {
+        "nombre": "Conejo en Salmorejo",
+        "descripcion": "Trozos de conejo marinados en una salsa a base de ajo, pimentón y pimienta picona.",
+        "pais": "España"
+      },
+      {
+        "nombre": "Boquerones Fritos",
+        "descripcion": "Boquerones que se limpian, se rebozan en harina de trigo y se fríen en aceite de oliva.",
+        "pais": "España"
+      },
+      {
+        "nombre": "Paella",
+        "descripcion": "Arroz cocinado con una variedad de ingredientes, que pueden incluir conejo, pollo, judías verdes, judías blancas y varios tipos de mariscos.",
+        "pais": "España"
+      },
+      {
+        "nombre": "Fabada Asturiana",
+        "descripcion": "Un guiso abundante hecho con fabes (judías blancas), chorizo, morcilla y jamón.",
+        "pais": "España"
+      },
+      {
+        "nombre": "Gazpacho",
+        "descripcion": "Una sopa fría hecha de tomates, pimientos, pepinos, ajo, vinagre, aceite de oliva y miga de pan.",
+        "pais": "España"
+      },
+      {
+        "nombre": "Tortilla Española",
+        "descripcion": "Una tortilla de huevos y patatas, a menudo incluye cebolla y otros ingredientes adicionales.",
+        "pais": "España"
+      },
+      {
+        "nombre": "Albóndigas en Salsa",
+        "descripcion": "Albóndigas de carne servidas con una salsa de tomate espesa y rica.",
+        "pais": "España"
+      },
+      {
+        "nombre": "Ensaladilla Rusa",
+        "descripcion": "Una ensalada de patatas con zanahorias, guisantes, atún y mayonesa.",
+        "pais": "España"
+      },
+      {
+        "nombre": "Pollo al Ajillo",
+        "descripcion": "Pollo frito con ajo y vino blanco.",
+        "pais": "España"
+      },
+      {
+        "nombre": "Calamares a la Romana",
+        "descripcion": "Anillas de calamar rebozadas y fritas, a menudo servidas con una rodaja de limón.",
+        "pais": "España"
+      },
+      {
+        "nombre": "Pisto Manchego",
+        "descripcion": "Un guiso de verduras que incluye pimientos, tomates, cebolla, berenjena y calabacín, a menudo servido con huevo frito o pan.",
+        "pais": "España"
+      },
+      {
+        "nombre": "Patatas Bravas",
+        "descripcion": "Patatas fritas cubiertas con una salsa picante.",
+        "pais": "España"
+      },
+      {
+        "nombre": "Churros con Chocolate",
+        "descripcion": "Rosquillas fritas servidas con una taza de chocolate caliente para mojar.",
+        "pais": "España"
+      }
+    ]
+  }

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <a href="../index.html" class="brand-name">
+                <img class="navbar-logo-img" src="../assets/veggiecook-logo.png" alt="veggiecook-logo">
+            </a>
+            <ul class="navbar-links">
+                <li><a href="#">Recetas</a></li>
+                <li><a href="#">Fitness</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+            <div class="browser">
+                <div class="inputBox_container">
+                    <svg class="search_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" alt="search icon">
+                        <path
+                            d="M46.599 46.599a4.498 4.498 0 0 1-6.363 0l-7.941-7.941C29.028 40.749 25.167 42 21 42 9.402 42 0 32.598 0 21S9.402 0 21 0s21 9.402 21 21c0 4.167-1.251 8.028-3.342 11.295l7.941 7.941a4.498 4.498 0 0 1 0 6.363zM21 6C12.717 6 6 12.714 6 21s6.717 15 15 15c8.286 0 15-6.714 15-15S29.286 6 21 6z">
+                        </path>
+                    </svg>
+                    <input class="inputBox" id="inputBox" type="text" placeholder="Buscar">
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="main-form_style">
+            <h1 id="title-contact" class="main-title_style">Contacto</h1>
+            <p id="subtitle-contact" class="main-subtitle_style">Si deseas dejarnos un comentario, puedes hacerlo aqui
+                abajo</p>
+            <div>
+                <form id="form" class="main-form-elements_style" action="" method="post">
+
+                    <div id="name-box" class="wave-group">
+                        <input id="name-input" required="" type="text" class="input" name="nombre">
+                        <span class="bar"></span>
+                        <label class="label">
+                            <span class="label-char" style="--index: 0">N</span>
+                            <span class="label-char" style="--index: 1">o</span>
+                            <span class="label-char" style="--index: 2">m</span>
+                            <span class="label-char" style="--index: 3">b</span>
+                            <span class="label-char" style="--index: 4">r</span>
+                            <span class="label-char" style="--index: 5">e</span>
+                        </label>
+                    </div>
+
+                    <div id="city-box" class="wave-group">
+                        <input id="city-input" required="" type="text" class="input">
+                        <span class="bar"></span>
+                        <label class="label">
+                            <span class="label-char" style="--index: 0">C</span>
+                            <span class="label-char" style="--index: 1">i</span>
+                            <span class="label-char" style="--index: 2">u</span>
+                            <span class="label-char" style="--index: 3">d</span>
+                            <span class="label-char" style="--index: 4">a</span>
+                            <span class="label-char" style="--index: 5">d</span>
+                        </label>
+                    </div>
+
+                    <div id="age-box" class="wave-group">
+                        <input id="age-input" required="" type="text" class="input">
+                        <span class="bar"></span>
+                        <label class="label">
+                            <span class="label-char" style="--index: 0">E</span>
+                            <span class="label-char" style="--index: 1">d</span>
+                            <span class="label-char" style="--index: 2">a</span>
+                            <span class="label-char" style="--index: 3">d</span>
+                        </label>
+                    </div>
+
+                    <div class="wave-group">
+                        <input id="email-input" required="" type="text" class="input" name="email">
+                        <span class="bar"></span>
+                        <label for="email" class="label">
+                            <span class="label-char" style="--index: 0">E</span>
+                            <span class="label-char" style="--index: 1">-</span>
+                            <span class="label-char" style="--index: 2">m</span>
+                            <span class="label-char" style="--index: 3">a</span>
+                            <span class="label-char" style="--index: 4">i</span>
+                            <span class="label-char" style="--index: 5">l</span>
+                        </label>
+                    </div>
+
+                    <div class="wave-group">
+                        <textarea id="message-input" id="mensaje" name="mensaje" class="input" required=""></textarea>
+                        <span class="bar"></span>
+                        <label class="label">
+                            <span class="label-char" style="--index: 0">M</span>
+                            <span class="label-char" style="--index: 1">e</span>
+                            <span class="label-char" style="--index: 2">n</span>
+                            <span class="label-char" style="--index: 3">s</span>
+                            <span class="label-char" style="--index: 4">a</span>
+                            <span class="label-char" style="--index: 5">j</span>
+                            <span class="label-char" style="--index: 6">e</span>
+                        </label>
+                    </div>
+                    <div class="main-form-button-container">
+                        <input class="main-form-button_style" type="submit" id="buttonn" value="¡Enviar!">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="caja-random" id="caja-random-id">
+            <button id="button-random" class="learn-more">
+                <span class="circle" aria-hidden="true">
+                    <span class="icon arrow"></span>
+                </span>
+                <span class="button-text">Receta random!</span>
+            </button>
+        </div>
+        <div class="container-random">
+                <div class="receta-random">
+                    <h3 class="valor-receta-random" id="valor-receta-random"></h3>
+                    <p id="descripcion-receta-random"></p>
+                    <h5 id="valor-pais-random"></h5>
+                </div>
+            </div>
+    </main>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="../scripts/main.js"></script>
+</body>
+
+</html>
