@@ -14,13 +14,18 @@ let paisRandom = document.getElementById('valor-pais-random')
 let descripcionRandom = document.getElementById('descripcion-receta-random')
 const botonRandom = document.getElementById('button-random')
 let cajaRandom = document.getElementById('caja-random-id')
-const rutaJson = '/scripts/data.json'
+const rutaJson = '../scripts/data.json'
 
 ocultarRandom()
 
 form.addEventListener("submit", function (e) {
   e.preventDefault();
   contactTitleChange(e)
+  Swal.fire({
+    title: "¡Genial!",
+    text: "Enviaste tu comentario exitosamente",
+    icon: "success"
+  });
 })
 
 async function mostrarRecetaAleatoria() {
