@@ -59,9 +59,11 @@ function contactTitleChange() {
     email: emailInput.value,
     message: messageInput.value
   };
+  let counter = localStorage.getItem('counter') || 0;
+  counter = Number(counter) + 1;
+  localStorage.setItem('counter', counter);
 
-  localStorage.setItem("name-entered", nameValue)
-  localStorage.setItem("user-data", JSON.stringify(userData))
+  localStorage.setItem(counter, JSON.stringify(userData));
 
   titleContact.innerText = `Gracias por tu comentario ${nameValue} :)`;
 
@@ -70,36 +72,40 @@ function contactTitleChange() {
   mostrarRandom()
 };
 
-
 function capitalizeFirstLetter(text) {
   return text.charAt(0).toUpperCase() + text.slice(1).toLowerCase();
 }
-
-let nameEntered = localStorage.getItem("name-entered")
 
 function removeRedundantData() {
   nameBox.remove()
   cityBox.remove()
   ageBox.remove()
 }
+
 function ocultarRandom() {
   cajaRandom.style.display = "none"
 }
+
 function mostrarRandom() {
   cajaRandom.style.display = "flex"
 }
 
-const userData = {
-  name: nameEntered,
-  city: cityInput.value,
-  age: ageInput.value,
-  email: emailInput.value,
-  message: messageInput.value
-}
+function pedidoLocalStorage() {
+  let lastKey = localStorage.key(localStorage.length - 1);
+  let lastObject = JSON.parse(localStorage.getItem(lastKey));
+  let object = JSON.parse(localStorage.getItem(lastObject));
+  
+  if (object !== null) {
+    let nameEntered = object.name;
+    let nameEnteredCap = capitalizeFirstLetter(nameEntered);
+ 
+    titleContact.innerText = `Que bueno verte de nuevo por aquí ${nameEnteredCap} :D`
+    subtitleContact.innerText = `¿Quieres dejarnos otro comentario? Adelante!`
+  }
+ }
 
-if (nameEntered !== null) {
-  titleContact.innerText = `Que bueno verte de nuevo por aquí ${nameEntered} :D`
-  subtitleContact.innerText = `¿Quieres dejarnos otro comentario? Adelante!`
+if (localStorage.length > 0) {
+  pedidoLocalStorage()
   removeRedundantData()
   mostrarRandom()
 }
